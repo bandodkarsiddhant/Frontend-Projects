@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zee5</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <script src="https://kit.fontawesome.com/85f386256d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="./Zee5_Official_logo.svg (1).png" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-#0f0617 navbar-bar sticky-top" id="nav-parent">
+        <div class="nav-container d-flex">
+            <a class="navbar-brand" href="#">
+                <img clas src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.50.94" title="ZEE5 Logo" alt="ZEE5 Logo"
+                    id="zee-logo">
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+                <ul class="navbar-nav navbar1">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        <div class="animation-line-active">
+
+                        </div>
+                    </li>
+                    <li class="nav-item nav-tvshow">
+                        <a class="nav-link text-white" href="#">Tv Shows</a>
+                        <div class="animation-line">
+
+                        </div>
+                        <!-- big drop  -->
+                        <div class="big-drop">
+                            <div class="big-drop-wrapper">
+                                <div class="drop-left">
+                                    <ul>
+                                        <li>Top Kannada Shows</li>
+                                        <li>Must Watch Kannada Shows</li>
+                                        <li>Lastest on ZEE5</li>
+                                        <li>Lastest on ZEE5&nbsp;|&nbsp;&nbsp;Kannada</li>
+                                    </ul>
+                                </div>
+                                <div class="drop-right-img">
+
+                                    <div class="img-sec">
+                                        <img src="https://tinyurl.com/fjmcenmk" alt="">
+                                        <img src="https://tinyurl.com/fjmcenmk" alt="">
+                                        <img src="https://tinyurl.com/fjmcenmk" alt="">
+                                    </div>
+                                    <div class="img-sec">
+                                        <img src="https://tinyurl.com/fjmcenmk" alt="">
+                                        <img src="https://tinyurl.com/fjmcenmk" alt="">
+                                        <img src="https://tinyurl.com/fjmcenmk" alt="">
+                                    </div>
+                                    <div class="img-sec">
+                                        <img src="https://tinyurl.com/fjmcenmk" alt="">
+                                        <img src="https://tinyurl.com/fjmcenmk" alt="">
+                                        <img src="https://tinyurl.com/fjmcenmk" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Movies</a>
+                        <div class="animation-line">
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Web Series</a>
+                        <div class="animation-line">
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">News</a>
+                        <div class="animation-line">
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Premium</a>
+                        <div class="animation-line">
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Live Tv</a>
+                        <div class="animation-line">
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Music</a>
+                        <div class="animation-line">
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="app-dropdown">
+                            <a class="nav-link text-white dropdown" href="#" id="navbarDarkDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bars"></i></a>
+                            <div class="hide-drop">
+                                <ul>
+                                    <li style="margin-top:10px;">ZEEPLEX</li>
+                                    <li>Play</li>
+                                    <li>Articel</li>
+                                    <li>Learning</li>
+                                    <li>kids</li>
+                                    <li>videos</li>
+
+                                </ul>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </li>
+
+
+
+                </ul>
+                <ul class="navbar-nav" id="navbar-sub">
+                    <li class="nav-item nav-ic">
+                        <a class="nav-link active text-white" aria-current="page" href="#"><i
+                                class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="nav-item nav-ic">
+                        <a class="nav-link  text-white" href="#"><i class="fa-solid fa-a"><sup>अ</sup></i></a>
+                    </li>
+                    <li class="nav-item n-login">
+                        <div>
+                            <a class="nav-link" href="#" id="nav-login">LOGIN</a>
+                        </div>
+                    </li>
+                    <li class="nav-item n-buy">
+                        <div style="width: 110%;">
+                            <a class="nav-link text-white" href="#" id="nav-buy"><i
+                                    class="fa-solid fa-crown"></i>&nbsp;&nbsp;BUY PLAN</a>
+                        </div>
+                    </li>
+
+                    <!-- ***********DROPDOWN******** -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="margin-top: -30%;">
+                            <i class="fa-solid fa-bars" style="color: #fff;margin-top: 50%;"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
+                            style="background-color: #0f0617;left: auto;right: 0;">
+                            <li><a class="dropdown-item" href="#">Home</a></li>
+                            <li><a class="dropdown-item" href="#">Explore</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Info</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ///////////////////////////////////carosel////////////////////////////////////////// -->
+
+    <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+                style="width:8px;height:2px;border:solid white 1px;border-radius:20px;" data-bs-slide-to="0"
+                class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+                style="width:8px;height:2px;border:solid white 1px;border-radius:20px;" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+                style="width:8px;height:2px;border:solid white 1px;border-radius:20px;" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+                style="width:8px;height:2px;border:solid white 1px;border-radius:20px;" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+                style="width:8px;height:2px;border:solid white 1px;border-radius:20px;" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+                style="width:8px;height:2px;border:solid white 1px;border-radius:20px;" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://tinyurl.com/caraouselimg1" class="d-block w-100" alt="images">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Garuda Gamana Vrishabha vahana</h5>
+                    <div class="carosel-cus-btn">
+                        <button class="carosel-watch">
+                            <i class="fa-solid fa-play"></i>
+                            &nbsp;
+                            WATCH
+                        </button>
+                        <button class="carosel-buy">
+                            <i class="fa-solid fa-crown"></i>&nbsp;
+                            BUY PLAN
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://tinyurl.com/caouselimg2" class="d-block w-100" alt="images">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Aranmanai 3</h5>
+                    <div class="carosel-cus-btn">
+                        <button class="carosel-watch">
+                            <i class="fa-solid fa-play"></i>
+                            &nbsp;
+                            WATCH
+                        </button>
+                        <button class="carosel-buy">
+                            <i class="fa-solid fa-crown"></i>&nbsp;
+                            BUY PLAN
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://tinyurl.com/yeyn997u" class="d-block w-100" alt="images">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Bangarraju</h5>
+                <div class="carosel-cus-btn">
+                    <button class="carosel-watch">
+                        <i class="fa-solid fa-play"></i>
+                        &nbsp;
+                        WATCH
+                    </button>
+                    <button class="carosel-buy">
+                        <i class="fa-solid fa-crown"></i>&nbsp;
+                        BUY PLAN
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="https://tinyurl.com/carouselimg4" class="d-block w-100" alt="images">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>100</h5>
+            <div class="carosel-cus-btn">
+                <button class="carosel-watch">
+                    <i class="fa-solid fa-play"></i>
+                    &nbsp;
+                    WATCH
+                </button>
+                <button class="carosel-buy">
+                    <i class="fa-solid fa-crown"></i>&nbsp;
+                    BUY PLAN
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="./assets/image/carosel5.jpg" class="d-block w-100" alt="images">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Bhajarangi 2</h5>
+            <div class="carosel-cus-btn">
+                <button class="carosel-watch">
+                    <i class="fa-solid fa-play"></i>
+                    &nbsp;
+                    WATCH
+                </button>
+                <button class="carosel-buy">
+                    <i class="fa-solid fa-crown"></i>&nbsp;
+                    BUY PLAN
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="./assets/image/carosel6.jpg" class="d-block w-100" alt="images">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Kannadiga</h5>
+            <div class="carosel-cus-btn">
+                <button class="carosel-watch">
+                    <i class="fa-solid fa-play"></i>
+                    &nbsp;
+                    WATCH
+                </button>
+                <button class="carosel-buy">
+                    <i class="fa-solid fa-crown"></i>&nbsp;
+                    BUY PLAN
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div> -->
+
+    <!-- *******Carousel hero ********* -->
+    <!-- ============================================================== -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="https://tinyurl.com/caraouselimg1" class="d-block w-100 h-80" alt="first carousel image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 style="text-align: left;">Mithya</h3>
+                    <br>
+                    <button type="button">
+                        <i class="fa-solid fa-play"></i> Watch
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="5000">
+                <img src="https://tinyurl.com/caouselimg2" class="d-block w-100" alt="second carousel image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 style="text-align: left;">Pandu</h3>
+                    <br>
+                    <button type="button">
+                        <i class="fa-solid fa-play"></i> Watch
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="https://tinyurl.com/carouselimg3" class="d-block w-100" alt="third carousel image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 style="text-align: left;">Macha</h3>
+                    <br>
+                    <button type="button">
+                        <i class="fa-solid fa-play"></i> Watch
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- ================================== o r i g n a l s ====================================== -->
+    <!-- ========================================================================================================================= -->
+    <div class="Original-sec">
+        <div class="for-more-container">
+            <div class="Original-sec-text">
+                <h1>ZEE5 Originals | First Ep Free</h1>
+
+
+            </div>
+            <div class="more-link">
+                <a href="#">More &nbsp;<i class="fa-solid fa-greater-than"></i></a>
+            </div>
+        </div>
+        <div class="original-img-container d-flex">
+            <div class="hide-container">
+                <img src="https://tinyurl.com/mur8jfcs" id="hide-img" alt="photo">
+                <div class="hide">
+                    <div class="card-title">
+                        <p>Mithya</p>
+                    </div>
+                    <div class="hide-btn d-flex justify-content-evenly" style="margin-top: -7%;">
+
+                        <button class="hide-watch-btn">
+                            <i class="fa-solid fa-play"></i>
+                            &nbsp;
+                            WATCH
+                        </button>
+                        <button class="hide-share-btn">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            Share
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hide-container" >
+                <img src="https://tinyurl.com/n6bcbj5n" id="hide-img" alt="photo">
+                <div class="hide" >
+                    <div class="card-title">
+                        <p>Kaun Banegi Shikarwati</p>
+                    </div>
+                    <div class="hide-btn d-flex justify-content-evenly">
+
+                        <button class="hide-watch-btn">
+                            <i class="fa-solid fa-play"></i>
+                            &nbsp;
+                            WATCH
+                        </button>
+                        <button class="hide-share-btn">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            Share
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hide-container">
+                <img src="https://tinyurl.com/2dxb9ydm " id="hide-img" alt="photo">
+                <div class="hide">
+                    <div class="card-title">
+                        <p>Sunflower</p>
+                    </div>
+                    <div class="hide-btn d-flex justify-content-evenly">
+
+                        <button class="hide-watch-btn">
+                            <i class="fa-solid fa-play"></i>
+                            &nbsp;
+                            WATCH
+                        </button>
+                        <button class="hide-share-btn">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            Share
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- ****************** carousel 1 exclusive movies on zee5 ****************** -->
+    <!-- ======================================================================================== -->
+    <br>
+    <div class="car1" style="display: flex;">
+        <div class="car11" style="background-color: #0f0617;color: #fff;margin-right: 10%;width: 50%;">
+            <h5 style="padding-left:10%;">Exclusive Movies on ZEE5</h5>
+        </div>
+        <br>
+        <div class="car12" style="background-color: #0f0617;width: 50%;">
+            <a href="#"
+                style="float: right;justify-content: right;background-color: #0f0617;width: 100%;margin-right: -85%;text-decoration: none;">
+                More <i class="fa-solid fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="owl-carousel owl-theme" style="background-color: #0f0617;padding: 4%;">
+        <div class="item">
+
+            <img src="https://tinyurl.com/ycy5brtp" alt="">
+
+        </div>
+
+        <div class="item">
+            <img src="https://tinyurl.com/534txxz4" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/v43zh4vd" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/3w4n6yux" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/y8f3t25u" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/4v3fbf45" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/yfccjne6" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/3eduhdw8" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/2p8s292w" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/2p88j2x2" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/2p8d2s59" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- /////////////////////////////////Exclusive section///////////////////////////////////////////// -->
+    <div class="Original-sec">
+        <div class="for-more-container">
+            <div class="Original-sec-text">
+                <h1>Exclusive Movies on ZEE5</h1>
+            </div>
+            <div class="more-link">
+                <a href="#">More &nbsp;<i class="fa-solid fa-greater-than"></i></a>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="original-img-container d-flex">
+            <div class="hide-container">
+                <img src="https://tinyurl.com/5cznsxfd " id="hide-img" alt="photo">
+                <div class="hide">
+                    <div class="card-title">
+                        <p>Abhay 2</p>
+                    </div>
+                    <div class="hide-btn d-flex justify-content-evenly">
+
+                        <button class="hide-watch-btn">
+                            <i class="fa-solid fa-play"></i>
+                            &nbsp;
+                            WATCH
+                        </button>
+                        <button class="hide-share-btn">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            Share
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hide-container">
+                <img src="https://tinyurl.com/2p8u6h2h " id="hide-img" alt="photo">
+                <div class="hide">
+                    <div class="card-title">
+                        <p>Jeet-ki-Kid</p>
+                    </div>
+                    <div class="hide-btn d-flex justify-content-evenly">
+
+                        <button class="hide-watch-btn">
+                            <i class="fa-solid fa-play"></i>
+                            &nbsp;
+                            WATCH
+                        </button>
+                        <button class="hide-share-btn">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            Share
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hide-container">
+                <img src="https://tinyurl.com/2kahumcc " id="hide-img" alt="photo">
+                <div class="hide">
+                    <div class="card-title">
+                        <p>Bichu ka Khel</p>
+                    </div>
+                    <div class="hide-btn d-flex justify-content-evenly">
+
+                        <button class="hide-watch-btn">
+                            <i class="fa-solid fa-play"></i>
+                            &nbsp;
+                            WATCH
+                        </button>
+                        <button class="hide-share-btn">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            Share
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <hr>
+
+
+    <!-- ****************** owl carousel 2 exclusive movies on zee5 ****************** -->
+    <!-- ======================================================================================== -->
+
+    <div class="car1" style="display: flex;">
+        <div class="car11" style="background-color: #0f0617;color: #fff;margin-right: 10%;width: 50%;">
+            <h5>ZEE5 Originals | First Ep Free</h5>
+        </div>
+        <br><br>
+        <div class="car12" style="width: 83%;background-color: #0f0617;">
+            <a href="#"
+                style="float: right;justify-content: right;color: #4e2870;width: 100%;margin-right: -85%;text-decoration: none;">
+                More<i class="fa-solid fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="owl-carousel owl-theme" style="background-color: #0f0617;">
+        <div class="item">
+            <img src="https://tinyurl.com/mur8jfcs" alt="">
+        </div>
+        <div class="item">
+            <img src=" https://tinyurl.com/2dxb9ydm" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/5cznsxfd " alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/2p8u6h2h" alt="">
+        </div>
+        <div class="item">
+            <img src=" https://tinyurl.com/2kahumcc" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/4f23e4cu " alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/4fj9kka6 " alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/mr3smwvh " alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/a9ym77jh" alt="">
+        </div>
+        <div class="item">
+            <img src="https://tinyurl.com/2p8d2s59" alt="">
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <!-- ===================================================================================== -->
+    <!-- *********************************** Footer ****************************** -->
+
+    <div class="footer">
+
+        <div class="footer1" style="display: flex;">
+
+            <div class="footer1-left" style="width: 50%;display: flex;">
+                <h6>Download Apps</h6>
+                <a href="#" style="margin-left: 2%;"><i class="fa-brands fa-google-play" style="color: white;"></i></a>
+                <a href="#" style="margin-top: 0%;margin-left: 2%;"><i class="fa-brands fa-app-store-ios" style="color: white;"></i></a>
+            </div>
+
+            <div class="footer1-right" style="width: 50%;display: flex;margin-right: 0;">
+                <h6>Connect with us</h6>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+        <br>
+        <div class="footer2">
+
+            <div class="foot-links">
+                <a href="#">About Us &nbsp;|</a>
+                <a href="#">Help Center &nbsp;|</a>
+                <a href="#">Privacy Policy &nbsp;|</a>
+                <a href="#">Terms of Use &nbsp;</a>
+
+            </div>
+        </div>
+
+        <br>
+        <div class="footer3" style="display: flex;">
+
+            <ul>
+                <li>Popular TV Shows</li>
+                <li>Kumkum Bhagya</li>
+                <li>Kundali Bhagya</li>
+                <li>Bhagya Lakshmi</li>
+            </ul>
+
+            <ul>
+                <li>Premium Movies</li>
+                <li>Helmet</li>
+                <li>200 Halla Ho</li>
+                <li>14 Phere</li>
+            </ul>
+
+            <ul>
+                <li>Aaj Tak</li>
+                <li>Zee News</li>
+                <li>Zee TV HD</li>
+                <li>Zee Marathi HD</li>
+            </ul>
+
+            <ul>
+                <li>Popular Web Shows</li>
+                <li>Sunflower</li>
+                <li>Naxalbari</li>
+                <li>Bichoo ka Khel</li>
+            </ul>
+
+            <ul>
+                <li>Bollywood Top Celebrities</li>
+                <li>Sunny Leone</li>
+                <li>Disha Patani</li>
+                <li>Salman Khan</li>
+            </ul>
+
+
+        </div>
+
+        <div class="footer4">
+            <p>
+                Copyright &copy; 2022 Zee Entertainment Enterprises Ltd.All rights reserved
+            </p>
+        </div>
+
+    </div>
+
+
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+    <!-- ================= owl ======================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

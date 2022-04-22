@@ -1,0 +1,1631 @@
+@import url(//db.onlinewebfonts.com/c/8a86b3e611f41da6ca263bf6c73dc65b?family=GDSage-Bold);
+@import url(//db.onlinewebfonts.com/c/0aee6008b82cde991ec28387169bb13e?family=GD+Sherpa);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-small: "GD Sherpa";
+    --font-big: "GDSage-Bold"
+}
+
+/* <!-- ======================N a v   B a r===================== --> */
+.nav {
+    margin: 1rem 0;
+}
+
+/* =====left side nav bar ================ */
+
+.nav1 {
+    width: 50rem;
+}
+
+/* ========== go daddy logo ==================== */
+
+.nav11 {
+    margin: 0 3rem;
+    width: 12rem;
+}
+
+/* =========== india under logo ============= */
+
+.country-name {
+    margin: 0rem 12rem;
+    font-size: 0.8rem;
+
+}
+
+.country-name small {
+    font-family: var(--font-small);
+    color: gray;
+}
+
+/* ================ nav lists left ================== */
+
+.nav12 {}
+
+.nav12 ul {
+    display: flex;
+    list-style-type: none;
+    /* justify-content:space-evenly; */
+    gap: 2rem;
+    margin-top: -2.9rem;
+    margin-left: 15rem;
+
+
+
+}
+
+.nav12 ul li a {
+    text-decoration: none;
+    font-family: var(--font-small);
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #908D8D;
+    letter-spacing: 0.04rem;
+}
+
+/* =================== nav lists right ================ */
+
+.nav12 {}
+
+.nav2 ul {
+    display: flex;
+    list-style-type: none;
+    /* justify-content: right; */
+    gap: 2rem;
+    margin-top: -1.1rem;
+    margin-left: 56rem;
+    font-family: var(--font-small);
+    font-size: 0.9rem;
+    letter-spacing: 0.04rem;
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ========================================================= */
+
+/* ================== D r o p --- D o w n s ================== */
+
+/* ================ DOMAINS ======================== */
+
+.domain1 {
+    display: flex;
+    margin-top: 4rem;
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    transform: scale(0);
+
+
+}
+
+.domain1 .domain-list ul li {
+    list-style-type: none;
+    padding-left: 5rem;
+    line-height: 2rem;
+    font-family: var(--font-small);
+    font-size: .9rem;
+}
+
+.domain1 .domain-list ul li:nth-child(1) {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* ================== image ============================ */
+
+.domain-img {
+    padding-left: 45rem;
+}
+
+.domain-img img {
+    width: 16rem;
+    height: 14rem;
+}
+
+.domain-link {
+    padding-top: 2rem;
+
+}
+
+.domain-link a {
+    text-decoration: none;
+    font-family: var(--font-small);
+    color: black;
+    font-size: .9rem;
+
+}
+
+.domain-link a:hover {
+    text-decoration: underline;
+}
+
+/* =========== domain dropdown css ================== */
+.domain1-scale1 {
+    transform: scale(1);
+}
+
+/* =================================================================== */
+
+/* ================= telephone dropdown ============================== */
+
+.tel 
+{
+    display: flex;
+    padding: 3rem;
+    height:50vh ;
+    background-color: #f5f2f0;
+    display: none;
+}
+
+.tel-list1
+{
+    width: 50%;
+}
+
+#tel-drop:hover .tel{
+    display: block;
+}
+
+.tel-list1 p
+{
+    font-family: var(--font-small);
+    font-size: small;
+}
+
+.tel-list1 a
+{
+    text-decoration: none;
+    color: #00838C;
+    font-family: var(--font-small);
+    font-size: small;
+}
+
+.tel-list2 p
+{
+
+    font-family: var(--font-small);
+}
+
+.tel-list2 p:nth-child(2),:nth-child(3),:nth-child(4)
+{
+
+    
+}
+
+
+
+
+
+/* ================ search bar block ====================== */
+
+.search {
+    margin-top: 4rem;
+    display: flex;
+}
+
+/* ================== search domain ======================== */
+.search1 {
+    padding-left: 3rem;
+    width: 50rem;
+}
+
+.search1 input {
+    width: 36rem;
+    height: 3.5rem;
+    background-color: #ebebeb;
+    border-style: none;
+}
+
+.search1 input:focus {
+    border: #1976d2 solid 1px;
+
+}
+
+.search1 ::placeholder {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #908D8D;
+}
+
+/* ============== search button ====================== */
+.search1 button {
+    height: 3.5rem;
+    width: 10rem;
+    margin-left: -0.3rem;
+    background-color: #00838C;
+    color: white;
+    border-style: none;
+    font-family: var(--font-small);
+    font-weight: 600;
+    transition-property: background-color transition-duration transition-timing-function;
+}
+
+.search1 button:hover {
+    transform: scale(1.05);
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+/* ========== search block logos rhs ======================= */
+
+.search2 {
+    display: flex;
+
+}
+
+.search21 {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    display: flex;
+
+}
+
+.search21 p {
+    margin-top: .1rem;
+    margin-left: 0.4rem;
+    font-size: small;
+    color: #908D8D;
+}
+
+.search22 {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    display: flex;
+}
+
+.search22 p {
+    margin-top: .1rem;
+    margin-left: 0.4rem;
+    font-size: small;
+    color: #908D8D;
+}
+
+.search23 {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    display: flex;
+}
+
+.search23 p {
+    margin-top: .1rem;
+    margin-left: 0.4rem;
+    font-size: small;
+    color: #908D8D;
+}
+
+.search24 {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    display: flex;
+}
+
+.search24 p {
+    margin-top: .1rem;
+    margin-left: 0.4rem;
+    font-size: small;
+    color: #908D8D;
+}
+
+/* ====================== dhoni block ====================== */
+
+.hero-block {
+    padding-left: 3rem;
+    padding-top: 1rem;
+    display: flex;
+}
+
+.hero1 {
+    width: 24rem;
+    height: 22rem;
+    background-color: #ddeaf8;
+    padding: 2rem;
+}
+
+.hero11 {
+    font-family: var(--font-small);
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.hero12 {
+    padding-top: 1rem;
+}
+
+.hero12 h3 {
+    font-family: "GDSage-Bold";
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.hero13 {
+    padding-top: 1rem;
+    font-family: var(--font-small);
+    font-size: 1rem;
+}
+
+.hero13 h5 {
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+/* =============== get it now button ==================== */
+.hero14 {
+    padding-top: 1.5rem;
+}
+
+.hero14 button {
+    background-color: black;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.hero14 a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-small);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hero15 {
+    padding-top: 1rem;
+
+}
+
+.hero15 p {
+    font-family: var(--font-small);
+    font-size: 0.70rem;
+    color: gray;
+    line-height: 1rem;
+}
+
+/* ============ dhoni background blue ================= */
+
+.hero2 {
+    width: 65%;
+    background-image: url("https://tinyurl.com/2p945n99");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero21 {
+    padding-left: 28rem;
+    padding-top: 2rem;
+}
+
+.hero21 h4 {
+    font-size: .9rem;
+    font-family: var(--font-small);
+}
+
+.hero21 h3 {
+    font-size: 1.8rem;
+    font-family: "GDSage-Bold";
+    padding-top: 1.7rem;
+}
+
+.hero21 h5 {
+    color: grey;
+    font-weight: 500;
+    font-family: var(--font-small);
+    padding-top: 1rem;
+    letter-spacing: .1rem;
+}
+
+/* ============== grid below dhoni ====================== */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 94.8%;
+    padding-left: 3rem;
+}
+
+/* ================= live block ======================= */
+.grid-item5 {
+    grid-column: 5/6;
+    grid-row: 1/3;
+    border: solid 1px #d6d6d6;
+
+}
+
+.grid-item5 p {
+    font-family: var(--font-small);
+    text-align: center;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    line-height: 1.1rem;
+
+
+}
+
+.grid-item5 img {
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+.grid-item {
+    display: flex;
+    border: solid 1px #d6d6d6;
+    padding: 2rem;
+    height: 15vh;
+    text-align: center;
+    font-family: var(--font-small);
+    color: rgb(63, 60, 60);
+    line-height: 1.3rem;
+}
+
+.grid-item i {
+    color: white;
+    margin-top: .6rem;
+    position: absolute;
+    margin-left: 11rem;
+}
+
+/* ==================== hover css ========================= */
+
+.grid-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.grid-item:hover p {
+    transform: translateX(-1.3rem);
+    transition-timing-function: linear;
+    transition-duration: .4s;
+}
+
+.grid-item:hover i {
+    transform: translateX(1.05rem);
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    color: white;
+}
+
+.grid-item5:hover {
+
+    background-color: black;
+}
+
+.grid-item5:hover p {
+    color: white;
+}
+
+/* .grid-item5:hover img
+{
+background-color: white;
+} */
+
+
+
+
+
+/* ==========trusted 20 million (header)============= */
+
+.header-text {
+    width: 100%;
+    font-family: var(--font-small);
+    font-size: clamp(1.35rem, 2.35vw, 2.75rem);
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    line-height: 1;
+    color: #111111;
+}
+
+/* ================================================== */
+
+/* =============== caraousel ===================== */
+
+#carousel-heading {
+    width: 92%;
+    font-family: "GD Sherpa";
+    margin: auto;
+}
+
+/* ////////////////////////////carousel///////////////////// */
+.carousel-main-wrapper {
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    box-sizing: content-box;
+    height: 73vh;
+    width: 270%;
+    display: flex;
+    /* position: relative; */
+    flex-wrap: nowrap;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    gap: 0.65rem;
+    /* overflow-y:hidden; */
+    transition: all ease 1s 0s;
+
+}
+
+.carousel-wrapper>:nth-child(1) {
+    margin-left: 4.5rem;
+}
+
+/* .carousel-wrapper:hover{
+
+    transform:translate(-10%);
+} */
+
+
+
+
+.carousel-item {
+    background-color: #d1d3d4;
+    width: 900px;
+    /* display: flex; */
+    /* flex-direction:column; */
+    /* margin:10rem; */
+    justify-content: space-between;
+    height: 92%;
+    padding: 1.5rem;
+    border-radius: 7px;
+}
+
+.carousel-item>svg {
+    padding: 0.25rem;
+    width: 4.4rem;
+}
+
+.carousel-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carousel-content div {
+    padding: 1rem;
+}
+
+.carousel-content p {
+    font-family: sans-serif;
+    color: #333535;
+    font-size: 1.4rem;
+    margin: 5px 0px;
+}
+
+.carousel-content :not(p, div) {
+    font-size: 0.90rem;
+    font-family: sans-serif;
+    line-height: 1.3rem;
+}
+
+.carousel-content h6 {
+    color: rgb(49, 49, 49);
+    font-weight: 100;
+    font-size: 0.89rem;
+}
+
+
+#next, #previous {
+    /* position:absolute; */
+    font-size: 1.3rem;
+}
+
+#previous {
+    margin-left: 8px;
+}
+
+#controls {
+    display: flex;
+    gap: 2rem;
+}
+
+#previous-btn, #next-btn {
+    border: 2px solid black;
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.carousel-bottom {
+    width: 92%;
+    margin: 1.2rem auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.control-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-bottom+p {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #2e2d2d;
+    width: 92%;
+    margin: auto;
+}
+
+.carousel-bottom+p b {
+    color: black;
+}
+
+.carousel-content a {
+    text-decoration: none;
+}
+
+.carousel-content a:hover {
+    text-decoration: underline;
+}
+
+/* ====== feature content section =================== */
+
+/* ============== wordpress hosting ================= */
+
+.feature-content-section1 {
+    width: 100%;
+    display: flex;
+    height: 40rem;
+}
+
+/* ============== content written=============== */
+
+.content-component1 {
+    width: 60rem;
+    padding: 4vh 7vw;
+}
+
+.content-component1 h2 {
+    font-family: var(--font-small);
+    font-size: 1rem;
+    font-weight: 800;
+    padding-top: 8rem;
+
+
+}
+
+.content-component1 h3 {
+    font-family: var(--font-big);
+    font-weight: 800;
+    font-size: 2.3rem;
+    padding-top: 1rem;
+}
+
+.content-component1 p {
+    padding-top: 1rem;
+    font-family: var(--font-small);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #111111;
+}
+
+.content-component1 button {
+    border: black solid 2px;
+    width: 11rem;
+    height: 3.5rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.btn1
+{
+    width: 100%;
+}
+
+.content-component1 button a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-small);
+    font-weight: 600;
+    font-size: 1.05em;
+    margin-left: -1.9rem;
+    
+}
+
+.content-component1 button .btn1 a
+{
+    width: 100%;
+    margin-left: .5rem;
+}
+
+.content-component1 button i {
+
+    margin-left:0rem;
+    color: white;
+}
+
+.content-component2 button i {
+
+    margin-left:0rem;
+    color: white;
+}
+
+.content-component3 button i {
+
+    margin-left:0rem;
+    color: white;
+}
+
+
+/* ===================== button hover ============================ */
+
+.content-component1 button:hover {
+    transform: scale(1.1);
+    transition-timing-function: linear;
+    transition-duration: .2s;
+}
+
+.content-component1 button:hover i
+{
+    transform:translateX(1.5rem);
+    transition-timing-function:linear;
+    transition-duration: .3s;
+    color:black;
+}
+
+
+
+.content-component2 button:hover {
+    transform: scale(1.1);
+    transition-timing-function: linear;
+    transition-duration: .2s;
+}
+
+.content-component2 button:hover i
+{
+    transform:translateX(1.5rem);
+    transition-timing-function:linear;
+    transition-duration: .3s;
+    color:black;
+}
+
+.content-component3 button:hover {
+    transform: scale(1.1);
+    transition-timing-function: linear;
+    transition-duration: .2s;
+}
+
+.content-component3 button:hover i
+{
+    transform:translateX(1.15rem);
+    transition-timing-function:linear;
+    transition-duration: .3s;
+    color:black;
+}
+
+
+
+
+/* =====rhs image ================== */
+
+.chai-bg {
+    width: 65rem;
+    height: 100vh;
+    background-image: url("https://tinyurl.com/3cbzkat9");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+/* ================================================ */
+/* ======== go daddy program laptop bg ============= */
+
+.feature-content-section2 {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+}
+
+/* ================= content ====================== */
+
+.content-component2 {
+    width: 40%;
+}
+
+.content-component2 h2 {
+    font-family: var(--font-small);
+    font-size: 1rem;
+    font-weight: 800;
+    padding-top: 8rem;
+
+
+
+}
+
+.content-component2 h3 {
+    font-family: var(--font-big);
+    font-weight: 800;
+    font-size: 2.3rem;
+    padding-top: 1rem;
+}
+
+.content-component2 p {
+    padding-top: 1rem;
+    font-family: var(--font-small);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #111111;
+}
+
+.content-component2 button {
+    border: black solid 2px;
+    width: 11rem;
+    height: 3.5rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.content-component2 button a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-small);
+    font-weight: 600;
+    font-size: 1.05em;
+
+}
+
+/* ============= lhs laptop image =============== */
+.laptop-bg {
+    width: 55%;
+    height: 100vh;
+    background-image: url("https://tinyurl.com/5ac7webv");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* ================================================== */
+
+/* ================go daddy reseller program ========= */
+
+.feature-content-section3 {
+    width: 100%;
+    display: flex;
+    height: 40rem;
+}
+
+/* ============== content written=============== */
+
+.content-component3 {
+    width: 60rem;
+    padding: 4vh 7vw;
+}
+
+.content-component3 h2 {
+    font-family: var(--font-small);
+    font-size: 1rem;
+    font-weight: 800;
+    padding-top: 8rem;
+
+
+}
+
+.content-component3 h3 {
+    font-family: var(--font-big);
+    font-weight: 800;
+    font-size: 2.3rem;
+    padding-top: 1rem;
+}
+
+.content-component3 p {
+    padding-top: 1rem;
+    font-family: var(--font-small);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #111111;
+}
+
+.content-component3 button {
+    border: black solid 2px;
+    width: 11rem;
+    height: 3.5rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.content-component3 button a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-small);
+    font-weight: 600;
+    font-size: 1.05em;
+
+}
+
+/* =====rhs image ================== */
+
+.laptop-bg2 {
+    width: 65rem;
+    height: 100vh;
+    background-image: url("https://tinyurl.com/yfu26rbj");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+/* =============================================== */
+/* ========== dhoni video ========================== */
+
+.Ad-video-sec {
+    margin-top: 2rem;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ad-video-sec .Ad-video-Btn {
+    background-image: url("https://img1.wsimg.com/cdn/Image/All/All/1/en-IN_hi-IN/22df36e1-d06f-4496-9013-d0e598d0ecf4/img-in-hp-imc-campaign.jpg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    width: 91%;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+    cursor: pointer;
+    /* position:relative; */
+
+}
+
+.play-btn {
+    border: #d1d3d4 solid .1px;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.play-btn:hover {
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.iframe-container {
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    /* position:fixed; */
+
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    display: none;
+}
+
+.iframe-js {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow-y: hidden; */
+    ;
+
+
+
+}
+
+.Xicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1rem;
+    position: absolute;
+    z-index: 20;
+    top: 15%;
+    left: 92%;
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ============== embedded video ======================== */
+
+#lazy-dhoni-video {
+    position: absolute;
+    margin-left: 22rem;
+    margin-top: -25rem;
+    display: none;
+}
+
+.lazy-dhoni-show {
+    display: block;
+}
+
+.iframe-js {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyOverflow {
+    overflow-y: hidden;
+}
+
+
+/* ===================================================== */
+
+/* ============= three videos section ==================== */
+
+.videos-content {
+    width: 100%;
+    height: 62vh;
+    background-color: #2f1a4b;
+}
+
+.videos-content h2 {
+    color: #ffffff;
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--font-small);
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+.flex-video-container {
+    display: flex;
+    width: 90%;
+    height: 35vh;
+    margin: 5rem auto;
+    justify-content: space-around;
+}
+
+.img1 {
+    width: 30%;
+    height: 35vh;
+
+}
+
+.flex-video-container .img1 .img11 {
+    width: 80%;
+    height: 26vh;
+    background-image: url(" https://tinyurl.com/293ym9de");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+
+
+}
+
+.flex-video-container .img1 .img11 button {
+    width: 3rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: none;
+    margin: 16% 38%;
+}
+
+.flex-video-container .img1 .img11 button:hover {
+    transition-duration: .1s;
+    transform: scale(1.2);
+}
+
+.flex-video-container .img1 h3 {
+    font-family: var(--font-small);
+    font-size: .95rem;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+    padding-left: 1rem;
+
+}
+
+/* ============== 2nd img ======================= */
+.img2 {
+    width: 30%;
+    height: 35vh;
+}
+
+.flex-video-container .img2 .img21 {
+    width: 120%;
+    height: 26vh;
+    background-image: url("https://tinyurl.com/2p8m4a87");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+
+
+}
+
+.flex-video-container .img2 .img21 button {
+    width: 3rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: none;
+    margin: 11% 28%;
+}
+
+.flex-video-container .img2 .img21 button:hover {
+    transform: scale(1.2);
+    transition-duration: .1s;
+
+}
+
+.flex-video-container .img2 h3 {
+    font-family: var(--font-small);
+    font-size: .95rem;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+    padding-left: 1rem;
+
+}
+
+/* =============== 3rd img ========================= */
+
+.img3 {
+    width: 30%;
+    height: 35vh;
+
+}
+
+.flex-video-container .img3 .img31 {
+    width: 120%;
+    height: 26vh;
+    background-image: url("https://tinyurl.com/mwac6w2x");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+
+
+}
+
+.flex-video-container .img3 .img31 button {
+    width: 3rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: none;
+    margin: 11% 28%;
+}
+
+.flex-video-container .img3 .img31 button:hover {
+    transform: scale(1.2);
+    transition-timing-function: linear;
+    transition-duration: .1s;
+}
+
+.flex-video-container .img3 h3 {
+    font-family: var(--font-small);
+    font-size: .95rem;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+    padding-left: 4rem;
+
+}
+
+/* ========================================================= */
+/* ============It all starts with a domain ================== */
+
+.basic-marquee {
+    width: 100%;
+    height: 68vh;
+    background-color: #d8efef;
+    margin-top: -200px;
+}
+
+/* .atf
+{
+    
+} */
+
+.basic-marquee-content {
+    margin-top: 15rem;
+
+}
+
+.basic-marquee-content h1 {
+    font-family: var(--font-big);
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.basic-marquee-content p {
+    font-family: var(--font-small);
+    text-align: center;
+    padding-top: 2.5rem;
+    color: rgba(0, 0, 0);
+    font-weight: 100;
+}
+
+/* =========== input/search bar ====================== */
+
+
+
+.basic-marquee-search {
+    padding-left: 30%;
+    margin-top: 2rem;
+}
+
+.basic-marquee-search input {
+
+    width: 29rem;
+    height: 3.5rem;
+}
+
+.basic-marquee-search input::placeholder {
+    font-size: 1rem;
+}
+
+.basic-marquee-search button {
+    width: 8rem;
+    height: 3.5rem;
+    margin-left: -5px;
+    margin-top: 1px;
+    background-color: black;
+    border: none;
+}
+
+.basic-marquee-search button a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-small);
+    font-size: .95rem;
+    font-weight: 500;
+}
+
+/* ========================================================= */
+
+/* =========== Go Daddy Guides ====================== */
+
+.godaddy-guides {
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://tinyurl.com/3ywk884f");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -128px;
+}
+
+/* =========== guide left side ====================== */
+
+.attribution-top-left {
+    margin-top: 10rem;
+    padding-top: 2.5rem;
+    margin-left: 4rem;
+    font-family: var(--font-small);
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+/* ===================== content block ================= */
+
+.guides-middle {
+    margin-left: 45rem;
+    width: 35rem;
+}
+
+.guides-heading h2 {
+    font-family: var(--font-big);
+    font-size: 2.3rem;
+}
+
+.guides-middle p {
+    font-family: var(--font-small);
+    font-size: .9rem;
+}
+
+.input-group {
+    margin-top: 1.2rem;
+}
+
+/* ================= input box ======================= */
+
+#quest {
+    width: 25rem;
+    height: 2.8rem;
+    border: gray solid 1px;
+}
+
+.input-group input::placeholder {
+    font-size: .95rem;
+    font-family: var(--font-small);
+
+}
+
+.input-group button {
+    height: 2.8rem;
+    width: 6rem;
+    margin-left: -4px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    opacity: .8;
+    transform: scale(1.07);
+    transition-timing-function: linear;
+    transition-duration: .1s;
+}
+
+.guides-links {
+    padding-top: 3rem;
+}
+
+.guides-links a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-small);
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: .01rem;
+}
+
+.guides-links a:hover {
+    text-decoration: underline;
+    transform: scaleX(1.1);
+}
+
+/* ==================================================== */
+
+/* ========== Millions of customers ================ */
+
+.rich-text-banner {
+
+    text-align: center;
+    width: 42rem;
+    margin: 4rem auto;
+}
+
+.rich-text-banner h1 {
+    font-family: var(--font-big);
+    font-size: 2.5rem;
+}
+
+.rich-text-banner h2 {
+    font-family: var(--font-small);
+    font-size: 1.1rem;
+}
+
+/* ============================================== */
+
+/* =============== F A Q     Accordian ================= */
+
+
+
+.faq-section {
+    width: 35rem;
+    margin: auto;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: white;
+    color: black;
+    font-family: var(--font-small);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 2.2rem 1.2rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    transition: 0.4s;
+}
+
+/* adding icons  */
+
+/* down unicode  */
+
+.accordion:after {
+    font-family: FontAwesome;
+    font-weight: 900;
+    content: '\f078';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+/* up unicode */
+.active:after {
+    content: "\f106";
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.faq {
+    /* padding: 0 18px; */
+    padding: 2rem 1.2rem;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq p {
+    font-family: var(--font-small);
+    font-weight: 100;
+    color: #777;
+}
+
+/* ================================================== */
+
+/* =================== disclaimer ====================== */
+
+.disclaimer {
+
+    padding: 1.5rem 2.5rem;
+}
+
+
+
+.disclaimer1 p a {
+    text-decoration: none;
+    font-family: var(--font-small);
+    color: black;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.disclaimer1 p a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.disclaimer2 {
+    margin-top: .5rem;
+}
+
+.disclaimer2 p {
+    font-family: var(--font-small);
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+/* ================================================= */
+
+/* ================= Banner ============================ */
+
+.rich-text-banner2 {
+    background-color: #1bdbdb;
+    width: 100%;
+    height: 15vh;
+}
+
+.rich-text-banner2 p {
+    text-align: center;
+    padding-top: 5vh;
+    font-family: var(--font-small);
+    font-size: 1.2rem;
+}
+
+/* ================================================ */
+
+/* =============== Footer ========================= */
+
+
+.footer-content {
+    background-color: #111111;
+}
+
+.footer1 {
+    padding: 1.8rem;
+}
+
+.footer1 p {
+    padding-left: 1.5rem;
+    color: #BAC0C3;
+    font-family: var(--font-small);
+    font-size: 1.2rem;
+}
+
+/* ==================================================== */
+
+/* ============== Footer Menu ============================ */
+
+.footer21 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.3rem 2.5rem;
+}
+
+
+
+.footer21 ul li {
+    color: white;
+    list-style-type: none;
+    line-height: 2;
+    font-family: var(--font-small);
+}
+
+.footer21 ul li a {
+    text-decoration: none;
+    color: #BAC0C3;
+    font-size: .75rem;
+    font-family: var(--font-small);
+}
+
+.footer21 ul li a:hover {
+    text-decoration: underline;
+}
+
+/* =================================================== */
+
+/* ===========  L o g o s ===================== */
+
+.footer3 {
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+}
+
+.footer3 svg {
+    fill: white;
+}
+
+.country {
+    color: white;
+    font-family: var(--font-small);
+    margin: 0.4rem;
+    margin-left: 1.4rem;
+    cursor: pointer;
+}
+
+.currency {
+    color: white;
+    font-family: var(--font-small);
+    margin: 0.4rem;
+    margin-left: 1.4rem;
+    cursor: pointer;
+}
+
+.footer-logos {
+    width: 60%;
+    margin-left: 2rem;
+
+}
+
+.footer-logos i {
+    float: right;
+    color: white;
+    font-size: 1.7rem;
+    padding-left: 1.2rem;
+    cursor: pointer;
+}
