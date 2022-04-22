@@ -1,0 +1,591 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* background image  */
+
+.bgImg {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./Assets/Images/background\ img.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+/* nav bar  */
+.navbar {
+
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    margin-top: 0px;
+    /* background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/1c62fa7f-27da-453c-bcfc-4ffb726de69c/IN-en-20220214-popsignuptwoweeks-perspective_alpha_website_medium.jpg"); */
+
+}
+
+.navbar article {
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    height: 70px;
+    display: flex;
+
+
+}
+
+.navbar article .logo {
+    width: 50%;
+    height: 70px;
+    /* border: 1px solid; */
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    fill: #e50914;
+    line-height: normal;
+    font-size: 50px;
+}
+
+.svg-icon {
+    height: 37px;
+    width: 147px;
+}
+
+.navbar article .authBlock {
+    width: 50%;
+    height: 70px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* nav bar lists */
+li {
+    list-style-type: none;
+
+}
+
+ul {
+    display: flex;
+}
+
+.authBlock ul li:nth-child(2) {
+    margin-left: 20px;
+
+}
+
+/* languages dropdown */
+#lang {
+    margin-top: 0px;
+    height: 33px;
+    width: 96px;
+    background: transparent;
+    color: #fff;
+}
+
+/* sign in css  */
+#signin {
+    background-color: #e50914;
+    color: #fff;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 3px;
+    border-style: none;
+}
+
+/* hero block  */
+.hero {
+    width: 900px;
+    height: 100px;
+    margin-left: 314px;
+    margin-top: -400px;
+    position: relative;
+}
+
+.hero1 h1 {
+    width: 543px;
+    height: 200px;
+    margin-left: 87px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hero2 h2 {
+    width: 543px;
+    margin-left: 87px;
+    margin-top: -68px;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hero3 h3 {
+    width: 673px;
+    /* height: 200px; */
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 26px;
+    margin-left: 13px;
+}
+
+/* mail input  */
+
+
+
+.hero4 button {
+    width: 208px;
+    height: 55px;
+
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    font-size: x-large;
+}
+
+.hero42 {
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+/* horizontal bar  */
+.hbar {
+    width: 100%;
+    height: 1vh;
+    background-color: grey;
+    margin-top: 300px;
+}
+
+/* tv  */
+.tv {
+    color: #ffffff;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+
+.tv11 {
+    width: 60%;
+    margin-top: 150px;
+
+}
+
+.tv11 h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.tv11 h2 {
+    /* text-align: center ; */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 523px;
+    margin-left: 197px;
+
+}
+
+.tv12 {
+    width: 40%;
+
+}
+
+
+
+.tv12 video {
+    margin-left: -36px;
+    margin-top: 93px;
+}
+
+.hbar2 {
+    width: 100%;
+    height: 1vh;
+    background-color: grey;
+    margin-top: 0px;
+}
+
+/* Stranger things download window  */
+.download {
+    width: 100%;
+    /* height: 10vh; */
+    background-color: black;
+}
+
+.downloadbox {
+    position: absolute;
+    border: 2px grey solid;
+    border-radius: 10px;
+    background-color: black;
+    height: 19vh;
+    width: 400px;
+    margin-left: 114px;
+    margin-top: -155px;
+}
+
+/* stranger things download small image  */
+#st1 {
+    height: 94px;
+    width: 71px;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+/* strangerthings text  */
+.downloadbox1 h3 {
+    color: #ffffff;
+    margin-left: 105px;
+    margin-top: -73px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.downloadbox2 h2 {
+    color: #0071EB;
+    font-size: 14.4px;
+    margin-left: 105px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.downloadbox3 img {
+    margin-left: 328px;
+    margin-top: -85px;
+    width: 50px;
+}
+
+/* stranger things rhs */
+
+.download2 {
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.download21 h1 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.download22 h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 17px;
+}
+
+/* saif side  */
+
+.hbar3 {
+    width: 100%;
+    height: 1vh;
+    background-color: grey;
+    margin-top: 0px;
+}
+
+/* lhs  */
+
+.watch
+{
+    height: 130vh;
+}
+
+.watch1 {
+    background-color: black;
+    width: 60%;
+    height: 130vh;
+}
+
+.watch1 h1 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 190px;
+    margin-left: 115px;
+
+}
+
+.watch1 h2 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    margin-left: 115px;
+    margin-top: 10px;
+}
+
+.watch2 {
+    width: 40%;
+    background-color: black;
+}
+
+.watch2 img {
+    position: absolute;
+    margin-left: -151px;
+    margin-top: 30px;
+}
+
+.watch2 video {
+    margin-left: -33px;
+    margin-top: 72px;
+    width: 393px;
+    height: 224px;
+}
+
+/* *****children********** */
+
+.children {
+    width: 100%;
+    height: 540px;
+    background-color: black;
+}
+
+.children1 {
+    width: 40%;
+}
+
+.children1 img {
+    width: 475px;
+    height: 377px;
+    margin-left: 120px;
+    margin-top: 73px;
+}
+
+.children2 {
+    width: 60%;
+    margin-left: 105px;
+}
+
+.children2 h1 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 135px;
+}
+
+.children2 h2 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    margin-top: 24px;
+}
+
+/* faq section  */
+
+.faq {
+    background-color: black;
+    width: 100%;
+    height: 1100px;
+
+
+}
+
+.faq1 {
+    background-color: black;
+
+}
+
+.faq1 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px;
+}
+
+/* ***************accordian************ */
+
+/* .accordion
+{
+    margin-left: 30px;
+}
+
+.accordion1
+{
+    margin-left: 20%;
+    padding-left: 15px;
+    width: 60%;
+    height: 70px;
+    font-size: 26px;
+    background-color: #303030;
+    color: #ffffff;
+    text-align: left;
+    border: none;
+
+} */
+
+/* .accordion p
+{
+    margin-left: 20%;
+    padding-left: 15px;
+    width: 60%;
+} */
+
+.accordion:hover .accordian1:hover .accordian11,
+.accordion .accordian1--default .accordian11 {
+    height: 200px;
+}
+
+.accordian11,
+.accordion:hover .accordian11 {
+    height: 6px;
+    overflow: hidden;
+    transition: 0.25s;
+}
+
+
+
+
+.accordion {
+    padding: 0;
+    margin: 0 auto;
+    width: 65%;
+
+
+}
+
+.accordian1 {
+
+    margin-top: 10px;
+    padding: 25px;
+    color: #eee;
+    background-color: #303030;
+}
+
+.accordion h1 {
+    font-size: 26px;
+    height: 30px;
+}
+
+.accordian11 p {
+    font-size: 26px;
+}
+
+.accordian1 h1 i
+{
+    float: right;
+    font-size: 50px;
+
+}
+
+/* *****bottom********** */
+
+.bottom h3 {
+    color: #ffffff;
+    font-size: 19.2px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.bottom1 {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.bottom1 button {
+    width: 208px;
+    height: 55px;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    font-size: x-large;
+}
+
+/* <!-- ***************** contact section *********** --> */
+
+.download {
+    width: 100%;
+    height: 2000px;
+}
+
+.down {
+    height: 600px;
+    background-color: black;
+}
+
+.footer {
+    height: 70vh;
+    width: 100%;
+    background-color: #000;
+    margin-top: 0;
+}
+
+.head {
+    /* margin-top: 10%; */
+    width: 100%;
+}
+
+.head h3 {
+    font-size: 16px;
+    color: #757575;
+    margin-left: 13%;
+    padding-top: 10%;
+
+
+}
+
+.article {
+    width: 80%;
+    height: auto;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.col1 ul li {
+    list-style: none;
+    line-height: 2.5;
+    display: flex;
+
+}
+
+.col1 li a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 13px;
+}
+
+.col1 li a:hover {
+    text-decoration: underline;
+}
+
+.col1 {
+    flex-basis: 23%;
+    margin: 0 auto;
+}
+
+.dropdown
+{
+    margin-left: 13%;
+    margin-top: -7%;
+}
+
+.netflix-india
+{
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+.netflix-india h3
+{
+    font-size: 13px;
+    color: #757575;
+}
